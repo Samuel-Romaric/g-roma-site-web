@@ -1,61 +1,60 @@
-<!-- Debut de la barre de navigation horizontal -->
-<header class="navbar-fixed-top">
+<!-- Horizontal navigation bar -->
+<!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
 
-  <div class="haut-nav">
-    <img src="{{ asset('/images/barre.png') }}" style="width: 10%; height: 60px">
-    <div class="pull-right">
-      <a class="btn btn-default btn-rond" href="{{ route('home') }}">Bouton 1</a>
-      <a class="btn btn-warning btn-rond" href="{{ route('home') }}">Bouton 2</a>
-      <a class="btn btn-default btn-rond" href="{{ route('home') }}">Bouton 3</a>
-    </div>
-  </div>
+      <h1 class="logo"><a href="{{ route('home') }}">Romaric-G</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-  <nav class="navbar navbar-inverse">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ route('home') }}">Samuel</a>
+      <nav class="nav-menu d-none d-lg-block">
+
+        <ul>
+          <li class="{{ active('home') }}"><a href="{{ route('home') }}">Home</a></li>
+
+          <li class="{{ active('services') }}"><a href="{{ route('services')}}">Services</a></li>
+          <li class="{{ active('portfolio') }}"><a href="{{ route('portfolio') }}">Portfolio</a></li>
+          <!-- <li class="{{ active('home') }}"><a href="pricing.html">Pricing</a></li> -->
+          <li class="{{ active('formation') }}"><a href="{{ route('formation') }}">Formation</a></li>
+          <li class="{{ active('blog') }}"><a href="{{ route('blog') }}">Blog</a></li>
+          <li class="{{ active('contact') }}"><a href="{{ route('contact') }}">Contact</a></li>
+
+          <li class="drop-down"><a href="#">About</a>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+
+              <li class="drop-down"><a href="#">Technologie</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+
+              <li><a href="team.html">Team</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
+
+              <li class="drop-down"><a href="#">Deep Drop Down</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+
+      </nav><!-- .nav-menu -->
+
+      <a href="{{ route('home') }}" class="get-started-btn ml-auto">Get Started</a>
+
     </div>
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li class="{{ activeUrl('home')}}"> <a href="{{ route('home') }}">Accueil</a> </li>
-        <li class="{{ activeUrl('formation')}}"> <a href="{{ route('formation') }}">Formation</a> </li>
-        <li class="{{ activeUrl('competence')}}"> <a href="{{ route('competence') }}">Competences</a> </li>
-        <li class="{{ activeUrl('experience')}}"> <a href="{{ route('experience') }}">Experiences</a> </li>
-        <li class="{{ activeUrl('contacter')}}"> <a href="{{ route('contacter') }}">Me Contacter</a> </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Articles <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li role="presentation" class="dropdown-header">Techologies</li>
-            <li><a href="#">Sécurité des SI</a></li>
-            <li><a href="#">Archithecture des SI</a></li>
-            <li><a href="#">Dévéloppement</a></li>
-            <li class="divider"></li>
-            <li role="presentation" class="dropdown-header">Managment</li>
-            <li><a href="#">Managment quotidien</a></li>
-            <li><a href="#">Gouvernance SI</a></li>
-            <li><a href="#">Gestion de Projet digital</a></li>
-            <li><a href="#">DevOps</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Réalisation</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-right">
-        <div class="input-group">
-          <input type="text" style="width:150px" class="input-sm form-control" placeholder="Recherche">
-          <span class="input-group-btn">
-            <button type="submit" class="btn btn-primary btn-sm">
-              <span class="glyphicon glyphicon-eye-open"></span>Chercher
-            </button>
-          </span>
-        </div>
-      </form>
-    </div>
-  </nav>
-  
-</header>
-<!-- Fin de la barre de navigation horizontal -->
+  </header><!-- End Header -->
+
+<!-- End to horizontal navigation bar -->

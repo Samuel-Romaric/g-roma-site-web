@@ -1,10 +1,11 @@
 <?php 
 
-	if (! function_exists('activeUrl')) {
+	if (! function_exists('active')) {
 		// On créé la fonction si elle n'existe pas
 
-		function activeUrl($url)
+		function active($url)
 		{
 			return Route::is($url) ? 'active' : '' ;
 		}
 	}
+

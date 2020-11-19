@@ -61,9 +61,40 @@ class PagesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function contacter()
+    public function contacte()
     {
     	return view('/pages/contacter');
     }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function portfolio()
+    {
+        return view('/pages/portfolio');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function services()
+    {
+        return view('/pages/services');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function blog()
+    {
+        return view('/pages/blog');
+    }
 }
+
 

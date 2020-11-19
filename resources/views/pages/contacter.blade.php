@@ -1,90 +1,81 @@
 @extends('/layouts/app')
 
+@section('breadcrumbs')
+
+    @include('/layouts.partials.breadcrumbs', ['name' => 'Contact', 'page' => 'Contact'])
+
+@stop
+
 @section('content')
 
-<br><br><br>
-  
-  <center><h1><span class="label label-default">Me Contacter</span></h1></center>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
 
-  <a href="#" id="pop" class="btn btn-info" data-toggle="popover" data-content="C'est tout simple à faire !" title="Test du Popover">
-    Cliquez sur moi pour le popover
-  </a>
-
-<!-- 
-  <canvas id="dessin" width="500" height="200" style="canvas {outline: 1px solid green}"></canvas>
-  <script>
-    var draw = document.getElementById("dessin");
-    var context = draw.getContext("2d");
-    context.fillStyle = "#0000ff";
-    context.arc(0,0,200,0,Math.PI*2,true);
-    context.shadowBlur = 50;
-    context.shadowColor = "black";
-    context.fill();
-    context.lineWidth = 12;
-    context.strokeStyle = "white";
-    context.stroke();
-  </script> 
--->
-
-<br><br>
-
-<div class="col-md-offset-3">
-  
-  <form class="horizontal-form" role="form">
-    
-    <div class="row">
-      <div class="col-md-4 form-group">
-
-        <div class="input-group">
-          <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-          <input type="text" name="" class="form-control" placeholder="Nom prenom" autofocus="">
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
         </div>
-        
-      </div>
 
-      <div class="col-md-4 form-group">
-        <div class="input-group">
-          <span class="input-group-addon"><span class="glyphicon glyphicon-earphone"></span></span>
-          <input type="tel" name="" class="form-control" placeholder="+225 99 000 000">
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Locatisation:</h4>
+                <p>Yopougon toit-rouge, Abidjan, Côte d'Ivoire</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>samuelromaric2015@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Téléphone:</h4>
+                <p>+225 77 934 561</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Votre Nome & Prenom" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Votre adresse e-mail" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Soumettre le Message</button></div>
+            </form>
+
+          </div>
+
         </div>
+
       </div>
-
-    </div>
-
-    <div class="row">
-      <div class="col-md-8 form-group">
-        <div class="input-group">
-          <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-          <input type="text" name="" class="form-control" placeholder="adresse_email@exemple.com">
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-8 form-group">
-        <label class="control-label">Fixer un RDV</label>
-        <div class="input-group">
-          <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
-          <input type="date" class="form-control text-center">
-          <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-8 form-group">
-        <textarea class="form-control" placeholder="Saisisez votre préocupation ici svp!" rows="8"></textarea>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-8">
-        <button class="btn btn-primary btn-block"><span class="glyphicon glyphicon-send"> Envoyer</button>
-      </div>
-    </div>
-
-  </form>
-
-</div>
+    </section><!-- End Contact Section -->
 
 @stop

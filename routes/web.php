@@ -23,4 +23,10 @@ Route::get('competence', 'PagesController@competence')->name('competence');
 
 Route::get('experience', 'PagesController@experience')->name('experience');
 
-Route::get('contacter', 'PagesController@contacter')->name('contacter');
+Route::get('contact', 'PagesController@contacte')->name('contact');
+
+Route::get('portfolio', 'PagesController@portfolio')->name('portfolio');
+
+Route::get('services', 'PagesController@services')->name('services');
+
+Route::get('blog', 'PagesController@blog')->name('blog');
