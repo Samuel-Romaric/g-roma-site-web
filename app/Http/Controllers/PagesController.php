@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
 	/**
-     * Display a listing of the resource.
+     * Display the home page.
      *
      * @return \Illuminate\Http\Response
      */
@@ -17,17 +17,7 @@ class PagesController extends Controller
     }
 
     /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function apropos()
-    {
-    	return view('pages.apropos');
-    }
-
-    /**
-     * Display a listing of the resource.
+     * Display a listing of the traning.
      *
      * @return \Illuminate\Http\Response
      */
@@ -37,37 +27,17 @@ class PagesController extends Controller
     }
 
     /**
-     * Display a listing of the resource.
+     * Display a form contact.
      *
      * @return \Illuminate\Http\Response
      */
-    public function competence()
-    {
-    	return view('/pages/competence');
-    }
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function experience()
-    {
-    	return view('/pages/experience');
-    }
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function contacte()
+    public function contact()
     {
     	return view('/pages/contacter');
     }
 
     /**
-     * Display a listing of the resource.
+     * Display a portofolio page.
      *
      * @return \Illuminate\Http\Response
      */
@@ -77,7 +47,7 @@ class PagesController extends Controller
     }
 
     /**
-     * Display a listing of the resource.
+     * Display a listing of the services.
      *
      * @return \Illuminate\Http\Response
      */
@@ -87,7 +57,7 @@ class PagesController extends Controller
     }
 
     /**
-     * Display a listing of the resource.
+     * Display a different articles of the blog.
      *
      * @return \Illuminate\Http\Response
      */

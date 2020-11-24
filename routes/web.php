@@ -15,15 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'PagesController@index')->name('home');
 
-Route::get('apropos', 'PagesController@apropos')->name('apropos');
-
 Route::get('formation', 'PagesController@formation')->name('formation');
 
-Route::get('competence', 'PagesController@competence')->name('competence');
-
-Route::get('experience', 'PagesController@experience')->name('experience');
-
-Route::get('contact', 'PagesController@contacte')->name('contact');
+Route::get('contact', 'PagesController@contact')->name('contact');
 
 Route::get('portfolio', 'PagesController@portfolio')->name('portfolio');
 

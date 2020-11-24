@@ -1,4 +1,4 @@
-@extends('/layouts/app')
+@extends('/layouts/app', ['title' => 'Me Contacter'])
 
 @section('breadcrumbs')
 
