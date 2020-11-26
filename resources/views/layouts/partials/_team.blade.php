@@ -9,7 +9,7 @@
               <div class="pic"><img src="assets/img/team/roma.jpg" class="img-fluid img-team-size" alt=""></div>
               <div class="member-info">
                 <h4>Romaric GUEÏ</h4>
-                <span>Directeur Executif chez Tech-Solution</span>
+                <span>Informaticien Développeur</span>
                 <p>L'un des premiers partenaires</p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>

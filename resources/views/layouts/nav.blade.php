@@ -10,7 +10,7 @@
       <nav class="nav-menu d-none d-lg-block nav-menu-left">
 
         <ul>
-          <li class="{{ active('home') }}"><a href="{{ route('home') }}"><i class="ri-check-double-line"></i> Home</a></li>
+          <li class="{{ active('home') }}"><a href="{{ route('home') }}">Accueil</a></li>
 
           <li class="{{ active('portfolio') }}"><a href="{{ route('portfolio') }}">Portfolio</a></li>
           <!-- <li class="{{ active('home') }}"><a href="pricing.html">Pricing</a></li> -->
