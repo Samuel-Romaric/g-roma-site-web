@@ -17,13 +17,65 @@ class PagesController extends Controller
     }
 
     /**
-     * Display a listing of the traning.
+     * Display a portofolio page.
      *
      * @return \Illuminate\Http\Response
      */
-    public function formation()
+    public function portfolio()
     {
-    	return view('/pages.formation');
+        return view('/pages/portfolio');
+    }
+
+    /**
+     * Display a different articles of the blog.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function technologie()
+    {
+        dd("technologie");
+        return view('/pages/formation_technologie');
+    }
+
+    /**
+     * Display a different articles of the blog.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function managment()
+    {
+        dd("managment");
+        return view('/pages/formation_managment');
+    }
+
+    /**
+     * Display a different articles of the blog.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function conseil()
+    {
+        return view('/pages/conseil');
+    }
+
+    /**
+     * Display a different articles of the blog.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function partenaires()
+    {
+        return view('/pages/partenaires');
+    }
+
+    /**
+     * Display a different articles of the blog.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function apropos()
+    {
+        return view('/pages/apropos');
     }
 
     /**
@@ -36,15 +88,10 @@ class PagesController extends Controller
     	return view('/pages/contacter');
     }
 
-    /**
-     * Display a portofolio page.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function portfolio()
-    {
-        return view('/pages/portfolio');
-    }
+    
+
+
+
 
     /**
      * Display a listing of the services.
@@ -56,15 +103,14 @@ class PagesController extends Controller
         return view('/pages/services');
     }
 
-    /**
-     * Display a different articles of the blog.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function blog()
-    {
-        return view('/pages/blog');
-    }
+    
+
+    
+
+    
+
+    
+    
 }
 
 

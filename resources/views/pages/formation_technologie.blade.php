@@ -2,7 +2,7 @@
 
 @section('breadcrumbs')
 
-    @include('/layouts.partials.breadcrumbs', ['name' => 'Blog', 'page' => 'Blog'])
+    @include('/layouts.partials.breadcrumbs', ['name' => 'Technologie', 'page' => 'Formations / Technologie'])
 
 @stop
 
@@ -23,7 +23,7 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a>
+                <a href="blog-single.html">Programmation en PHP</a>
               </h2>
 
               <div class="entry-meta">
@@ -35,10 +35,10 @@
 
               <div class="entry-content">
                 <p>
-                  Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta zena prista maraeda talan mas indera.
+                  Mettons y du text
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">Read More</a>
+                  <a href="#">Savoir plus</a>
                 </div>
               </div>
 

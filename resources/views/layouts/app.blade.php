@@ -44,7 +44,7 @@
   <div class="page">
 
     @yield('slidebar')
-
+    
     <!-- Start #main -->
     <main id="main">
 

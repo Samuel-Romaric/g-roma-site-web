@@ -14,7 +14,7 @@
         <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Qui suis-je ?<!-- Bienvenu chez <span>Best_IT-Tech</span> --></h2>
+              <h2 class="animate__animated animate__fadeInDown">Qui suis-je ?</h2>
               <p class="animate__animated animate__fadeInUp">Je suis un spécialiste diplômé des technologien de l'information, de la communication et de la securité de l'information. Un vaste domaine dans lequel j'évolue en étroit rélation avec leurdit sous domaines</p>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">En Savoir plus</a>
             </div>
@@ -27,7 +27,7 @@
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Un service de best quality</h2>
               <p class="animate__animated animate__fadeInUp">Au terme du multiservice, l'on dira qu'ils sont de nature très varriés, de très haut qualité avec des coût defiant toute concurance. Certains seront véritablement surpris de faire face à de telle réalité</p>
-              <a href="#clients" class="btn-get-started animate__animated animate__fadeInUp scrollto">En Savoir plus</a>
+              <a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">En Savoir plus</a>
             </div>
           </div>
         </div>
@@ -36,8 +36,8 @@
         <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Un véritable background</h2>
-              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <h2 class="animate__animated animate__fadeInDown">Mon expérience</h2>
+              <p class="animate__animated animate__fadeInUp">Une experience acquise au file du temps par le bias de maintes formations, essais et travaux de réalisation et surtout avec pour coeur  la volonté de laisser des traces dans l'histoire.</p>
               <a href="#portfolio" class="btn-get-started animate__animated animate__fadeInUp scrollto">En Savoir plus</a>
             </div>
           </div>
@@ -94,8 +94,7 @@
 
     </section><!-- End About Section -->
 
-
-    @include('layouts.partials._team')
+    
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -118,35 +117,35 @@
             <div class="icon-box">
               <i class="icofont-chart-bar-graph"></i>
               <h4><a href="#">Analyse - Conception - Deploiement</a></h4>
-              <p>La conception d'un système d'information ne peut être possible sans une bonne definition et analyse du domaine d'étude. Ansi, MERSIE, UML, IDA</p>
+              <p>La conception d'un système d'information ne peut être possible sans une bonne definition et analyse du domaine d'étude. Ansi, MERSIE, UML, IDA réalisent le plan de conception</p>
             </div>
           </div>
           <div class="col-md-6 mt-4 mt-md-0">
             <div class="icon-box">
               <i class="icofont-image"></i>
               <h4><a href="#">Infographie - Web Desing</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <p>Que serait l'apparance du web sans le Design, sans la participation des graphistes au service du beau? Toute la beauté d'un site repose sur les épaules d'une bonne inspiration</p>
             </div>
           </div>
           <div class="col-md-6 mt-4 mt-md-0">
             <div class="icon-box">
               <i class="icofont-settings"></i>
               <h4><a href="#">Architecture de SI</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <p>Un architecte, c’est avant tout le dépositaire d’une méthode et d’une vision. <!-- ***** --></p>
             </div>
           </div>
           <div class="col-md-6 mt-4 mt-md-0">
             <div class="icon-box">
               <i class="icofont-earth"></i>
               <h4><a href="#">Securité - Administration système et réseau</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <p><!-- *********************************************************** --></p>
             </div>
           </div>
           <div class="col-md-6 mt-4 mt-md-0">
             <div class="icon-box">
               <i class="icofont-tasks-alt"></i>
               <h4><a href="#">Gestion de projet digital</a></h4>
-              <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <p><!-- *********************************************************** --></p>
             </div>
           </div>
         </div>

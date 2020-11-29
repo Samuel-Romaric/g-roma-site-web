@@ -8,9 +8,9 @@
             <div class="footer-info">
               <h3>Romaric-G</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +225 5589 55488 55<br>
+                Yopougon; Toit-Rouge <br>
+                Abidjan, Côte d'Ivoire<br><br>
+                <strong>Phone:</strong> +225 77 934 561<br>
                 <strong>Email:</strong> info@example.com<br>
               </p>
               <div class="social-links mt-3">

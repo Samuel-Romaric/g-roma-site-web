@@ -15,12 +15,30 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'PagesController@index')->name('home');
 
-Route::get('formation', 'PagesController@formation')->name('formation');
+Route::get('portfolio', 'PagesController@portfolio')->name('portfolio');
+
+Route::get('technologie', 'PagesController@technologie')->name('technologie');
+
+Route::get('managment', 'PagesController@managment')->name('managment');
+
+Route::get('conseil', 'PagesController@conseil')->name('conseil');
+
+Route::get('partenaires', 'PagesController@partenaires')->name('partenaires');
+
+Route::get('apropos', 'PagesController@apropos')->name('apropos');
 
 Route::get('contact', 'PagesController@contact')->name('contact');
 
-Route::get('portfolio', 'PagesController@portfolio')->name('portfolio');
 
-Route::get('services', 'PagesController@services')->name('services');
 
-Route::get('blog', 'PagesController@blog')->name('blog');
+
+
+
+Route::get('formation', 'PagesController@formation')->name('formation');
+
+
+// Route::get('services', 'PagesController@services')->name('services');
+
+
+
+

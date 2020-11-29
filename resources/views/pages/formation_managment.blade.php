@@ -1,14 +1,14 @@
-@extends('/layouts/app', ['title' => 'Formation'])
+@extends('/layouts/app', ['title' => 'Blog'])
 
 @section('breadcrumbs')
 
-    @include('/layouts.partials.breadcrumbs', ['name' => 'Formations', 'page' => 'Formations'])
+    @include('/layouts.partials.breadcrumbs', ['name' => 'Managment', 'page' => 'Formations / Managment'])
 
 @stop
 
 
 @section('content')
-  
+
   <!-- ======= Blog Section ======= -->
     <section id="blog" class="blog">
       <div class="container">
@@ -23,7 +23,7 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a>
+                <a href="blog-single.html">Formation en php</a>
               </h2>
 
               <div class="entry-meta">
