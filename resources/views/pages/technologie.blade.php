@@ -1,8 +1,8 @@
-@extends('/layouts/app', ['title' => 'Blog'])
+@extends('/layouts/app', ['title' => 'Learn Tech'])
 
 @section('breadcrumbs')
 
-    @include('/layouts.partials.breadcrumbs', ['name' => 'Managment', 'page' => 'Formations / Managment'])
+    @include('/layouts.partials.breadcrumbs', ['name' => 'Technologie', 'page' => 'Formations / Technologie'])
 
 @stop
 
@@ -23,22 +23,22 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Formation en php</a>
+                <a href="blog-single.html">La sécurité des Systèmes d'Informatiques</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
-                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">Romaric G.</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Nov. 29, 2020</time></a></li>
                 </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                  Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta zena prista maraeda talan mas indera.
+                  Une note sur l'importance de la mise en place d'une bonne politique de sécurité et une permanante au respect scrupuleux de celle-ci.
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">Read More</a>
+                  <a href="#">Savoir plus</a>
                 </div>
               </div>
 
@@ -53,22 +53,22 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Nisi magni odit consequatur autem nulla dolorem</a>
+                <a href="blog-single.html">Archiectures des Systèmes</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
-                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">Romaric G.</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Nov. 29, 2020</time></a></li>
                 </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                  Ad impedit qui officiis est in non aliquid veniam laborum. Id ipsum qui aut. Sit aliquam et quia molestias laboriosam. Tempora nam odit omnis eum corrupti qui aliquid excepturi molestiae. Facilis et sint quos sed voluptas. Maxime sed tempore enim omnis non alias.
+                  Mettre en évidence l'intérêt d'une bonne architecture.
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">Read More</a>
+                  <a href="blog-single.html">De la Doc.</a>
                 </div>
               </div>
 
@@ -83,7 +83,7 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</a>
+                <a href="blog-single.html">La programmation en Python.</a>
               </h2>
 
               <div class="entry-meta">
@@ -98,7 +98,7 @@
                   Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis tara kero pakla metaruna nedore stan.
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">Read More</a>
+                  <a href="blog-single.html">De la Doc.</a>
                 </div>
               </div>
 
@@ -113,7 +113,7 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius exercitationem.</a>
+                <a href="blog-single.html">Back-End & PHP</a>
               </h2>
 
               <div class="entry-meta">
@@ -125,10 +125,10 @@
 
               <div class="entry-content">
                 <p>
-                  Aspernatur rerum perferendis et sint. Voluptates cupiditate voluptas atque quae. Rem veritatis rerum enim et autem. Saepe atque cum eligendi eaque iste omnis a qui.
+                  Base de données MySQL.
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">Read More</a>
+                  <a href="blog-single.html">De la Doc.</a>
                 </div>
               </div>
 
@@ -143,7 +143,7 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Blanditiis dignissimos deleniti. Rerum iste et.</a>
+                <a href="blog-single.html">Base de données.</a>
               </h2>
 
               <div class="entry-meta">
@@ -155,10 +155,10 @@
 
               <div class="entry-content">
                 <p>
-                  Quidem et eum explicabo quia illo numquam nostrum corrupti provident. Quia aspernatur et et facere. Quisquam maiores natus nihil incidunt ipsum est optio eum maxime. Dignissimos vitae explicabo. Corrupti esse sed a a. Laborum optio reprehenderit quia dena per.
+                  MySQL, SQLite, NoSQL, Oracle, PostgreSQL.
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">Read More</a>
+                  <a href="blog-single.html">De la Doc.</a>
                 </div>
               </div>
 
@@ -173,22 +173,22 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Debitis cupiditate saepe ex quam aut id. Consequatur dignissimos et id id.</a>
+                <a href="blog-single.html">Le reseaux .</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">Romaric G.</a></li>
                   <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
                 </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                  Modi dolor et placeat ut iure ad. Qui perferendis fugit quo et cumque facilis et debitis rerum. Repellendus animi qui eos. Unde perferendis et tempora Ratione porro omnis magn delata sera marto ned.
+                  CISCO, CCNA, CCNP, CCIE, etc.
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">Read More</a>
+                  <a href="blog-single.html">De la Doc.</a>
                 </div>
               </div>
 
@@ -196,7 +196,7 @@
           </div>
 
         </div>
-
+<!-- 
         <div class="blog-pagination" data-aos="fade-up">
           <ul class="justify-content-center">
             <li class="disabled"><i class="icofont-rounded-left"></i></li>
@@ -205,7 +205,7 @@
             <li><a href="#">3</a></li>
             <li><a href="#"><i class="icofont-rounded-right"></i></a></li>
           </ul>
-        </div>
+        </div> -->
 
       </div>
     </section><!-- End Blog Section -->

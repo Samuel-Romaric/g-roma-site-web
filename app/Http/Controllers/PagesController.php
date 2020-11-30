@@ -27,25 +27,23 @@ class PagesController extends Controller
     }
 
     /**
-     * Display a different articles of the blog.
+     * Display a different cours of technologies learning.
      *
      * @return \Illuminate\Http\Response
      */
     public function technologie()
     {
-        dd("technologie");
-        return view('/pages/formation_technologie');
+        return view('/pages/technologie');
     }
 
     /**
-     * Display a different articles of the blog.
+     * Display a different cours of managment learning.
      *
      * @return \Illuminate\Http\Response
      */
     public function managment()
     {
-        dd("managment");
-        return view('/pages/formation_managment');
+        return view('/pages/managment');
     }
 
     /**
@@ -59,17 +57,17 @@ class PagesController extends Controller
     }
 
     /**
-     * Display a different articles of the blog.
+     * Display a different partners of me.
      *
      * @return \Illuminate\Http\Response
      */
-    public function partenaires()
+    public function services()
     {
-        return view('/pages/partenaires');
+        return view('/pages/services');
     }
 
     /**
-     * Display a different articles of the blog.
+     * Display abaout page.
      *
      * @return \Illuminate\Http\Response
      */
@@ -87,29 +85,6 @@ class PagesController extends Controller
     {
     	return view('/pages/contacter');
     }
-
-    
-
-
-
-
-    /**
-     * Display a listing of the services.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function services()
-    {
-        return view('/pages/services');
-    }
-
-    
-
-    
-
-    
-
-    
     
 }
 

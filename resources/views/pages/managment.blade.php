@@ -1,8 +1,8 @@
-@extends('/layouts/app', ['title' => 'Blog'])
+@extends('/layouts/app', ['title' => 'Managment'])
 
 @section('breadcrumbs')
 
-    @include('/layouts.partials.breadcrumbs', ['name' => 'Technologie', 'page' => 'Formations / Technologie'])
+    @include('/layouts.partials.breadcrumbs', ['name' => 'Managment', 'page' => 'Formations / Managment'])
 
 @stop
 
@@ -23,22 +23,22 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Programmation en PHP</a>
+                <a href="blog-single.html">Gestion de projet digital</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">Romaric G.</a></li>
                   <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
                 </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                  Mettons y du text
+                  Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta zena prista maraeda talan mas indera.
                 </p>
                 <div class="read-more">
-                  <a href="#">Savoir plus</a>
+                  <a href="blog-single.html">Read More</a>
                 </div>
               </div>
 
@@ -53,12 +53,12 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Nisi magni odit consequatur autem nulla dolorem</a>
+                <a href="blog-single.html">Managment d'une équipe au quotidien</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">Romaric G.</a></li>
                   <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
                 </ul>
               </div>
@@ -83,12 +83,12 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</a>
+                <a href="blog-single.html">Managment d'une équipe au quotidien.</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">Romaric G.</a></li>
                   <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
                 </ul>
               </div>
@@ -113,12 +113,12 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius exercitationem.</a>
+                <a href="blog-single.html">Gestion de projet: Methodologie Agile.</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">Romaric G.</a></li>
                   <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
                 </ul>
               </div>
@@ -143,12 +143,12 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Blanditiis dignissimos deleniti. Rerum iste et.</a>
+                <a href="blog-single.html">Etre un bon Scrum Master.</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">Romaric G.</a></li>
                   <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
                 </ul>
               </div>
@@ -173,12 +173,12 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Debitis cupiditate saepe ex quam aut id. Consequatur dignissimos et id id.</a>
+                <a href="blog-single.html">Ameliorer son service par le biais des technologies.</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">Romaric G.</a></li>
                   <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
                 </ul>
               </div>
@@ -197,7 +197,7 @@
 
         </div>
 
-        <div class="blog-pagination" data-aos="fade-up">
+        <!-- <div class="blog-pagination" data-aos="fade-up">
           <ul class="justify-content-center">
             <li class="disabled"><i class="icofont-rounded-left"></i></li>
             <li><a href="#">1</a></li>
@@ -205,7 +205,7 @@
             <li><a href="#">3</a></li>
             <li><a href="#"><i class="icofont-rounded-right"></i></a></li>
           </ul>
-        </div>
+        </div> -->
 
       </div>
     </section><!-- End Blog Section -->

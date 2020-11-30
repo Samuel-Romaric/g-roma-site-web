@@ -39,7 +39,7 @@
 
 <body>
     
-  @include('layouts.nav')
+  @include('layouts.partials._nav')
 
   <div class="page">
 
