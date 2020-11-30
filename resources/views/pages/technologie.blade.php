@@ -2,7 +2,7 @@
 
 @section('breadcrumbs')
 
-    @include('/layouts.partials.breadcrumbs', ['name' => 'Technologie', 'page' => 'Formations / Technologie'])
+    @include('/layouts.partials.breadcrumbs', ['name' => 'Technologie', 'page' => 'Savoir faire / Technologie'])
 
 @stop
 
@@ -19,26 +19,26 @@
             <article class="entry">
 
               <div class="entry-img">
-                <img src="assets/img/blog-1.jpg" alt="" class="img-fluid">
+                <img src="assets/img/securite.jpg" alt="" class="img-fluid img-learn">
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">La sécurité des Systèmes d'Informatiques</a>
+                <a href="https://fr.wikipedia.org/wiki/COBIT" target="blank">Analyse et gestion des risques des Systèmes d'Informations</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">Romaric G.</a></li>
-                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Nov. 29, 2020</time></a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="{{ route('apropos') }}">Romaric G.</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="#"><time datetime="2020-01-01">Nov. 29, 2020</time></a></li>
                 </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                  Une note sur l'importance de la mise en place d'une bonne politique de sécurité et une permanante au respect scrupuleux de celle-ci.
+                  Le risque zero (0) est quasi inexistant en matière de confidentialité, d'integrité et de disponibilité des données. Il est important d'user de certaines methodologies (MEHARI, OCTAVE, etc) en vue de reduire au maximum et mieux gérer les menaces vis-àvis de vos actifs.
                 </p>
                 <div class="read-more">
-                  <a href="#">Savoir plus</a>
+                  <a href="https://fr.wikipedia.org/wiki/COBIT" target="blank">En Savoir plus</a>
                 </div>
               </div>
 
@@ -49,26 +49,26 @@
             <article class="entry">
 
               <div class="entry-img">
-                <img src="assets/img/blog-2.jpg" alt="" class="img-fluid">
+                <img src="assets/img/architecture.jpg" alt="architecture" class="img-fluid img-learn">
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Archiectures des Systèmes</a>
+                <a href="https://www.blueway.fr/blog/architecture-si" target="blank">Archiectures des Systèmes</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">Romaric G.</a></li>
-                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Nov. 29, 2020</time></a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="{{ route('apropos') }}">Romaric G.</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="#"><time datetime="2020-01-01">Nov. 29, 2020</time></a></li>
                 </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                  Mettre en évidence l'intérêt d'une bonne architecture.
+                  Le deploiement de tout Système d'Information ou application métier ne peut être possibe que dans un environnement qui se doit d'être robust, bien sécurisé, élastique et surtout simple. Cet environement permet de rendre possible l'exploitation dudit système d'information ou application metier sur les plans fonctionnel, applicatif, infrastructure et operationnel.
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">De la Doc.</a>
+                  <a href="https://www.blueway.fr/blog/architecture-si" target="blank">En savoir plus</a>
                 </div>
               </div>
 
@@ -79,7 +79,7 @@
             <article class="entry">
 
               <div class="entry-img">
-                <img src="assets/img/blog-3.jpg" alt="" class="img-fluid">
+                <img src="{{ asset('assets/img/python.jpg') }}" alt="" class="img-fluid img-learn">
               </div>
 
               <h2 class="entry-title">
@@ -88,17 +88,17 @@
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
-                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="{{ route('apropos') }}">Romaric G.</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="#"><time datetime="2020-01-01">Nov. 30, 2020</time></a></li>
                 </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                  Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis tara kero pakla metaruna nedore stan.
+                  Utilisé aujourd'hui dans maintes de domains, Python est un langage de programmation informatique basé sur le concepte de la programmation orienté objet qui intervient dans l'administration système, la création des applications desktop et web (Flask, Django), la robotique, l'analyse de données (Data Science), etc.
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">De la Doc.</a>
+                  <a href="https://www.python.org/download/releases/3.0/" target="blank">En Savoir plus</a>
                 </div>
               </div>
 
@@ -113,22 +113,22 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Back-End & PHP</a>
+                <a href="https://www.php.net/" target="blank">PHP & le Back-End</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
-                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="{{ route('apropos') }}">Romaric G.</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="#"><time datetime="2020-01-01">Nov. 30, 2020</time></a></li>
                 </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                  Base de données MySQL.
+                  Aussi puissant que son logo (l'éléphant), le PHP est un langage de programmation objet orient back-end. A son aise, l'on est capable de concévoir et mettre en production des applications web de tout type. Les puissants framwork tel que Symfony et Laravel en sont conçus.
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">De la Doc.</a>
+                  <a href="https://laravel.com/" target="blank">En Savoir plus</a>
                 </div>
               </div>
 
@@ -139,7 +139,7 @@
             <article class="entry">
 
               <div class="entry-img">
-                <img src="assets/img/blog-5.jpg" alt="" class="img-fluid">
+                <img src="assets/img/database.jpg" alt="" class="img-fluid img-learn">
               </div>
 
               <h2 class="entry-title">
@@ -148,17 +148,17 @@
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
-                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="{{ route('apropos') }}">Romaric G.</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="#"><time datetime="2020-01-01">Nov. 30, 2020</time></a></li>
                 </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                  MySQL, SQLite, NoSQL, Oracle, PostgreSQL.
+                  La bonne maitrise d'un SGBD (Système de Gestion de Base de Données) Rélationnel reste indispenssable dans la structuration, la definition et la manipulation des données en vue d'une bonne gestion de celles-ci (MySQL, SQLite, PostgreSQL, Oracle).  
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">De la Doc.</a>
+                  <a href="https://www.mysql.com/fr/" target="blank">En Savoir plus</a>
                 </div>
               </div>
 
@@ -173,22 +173,22 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Le reseaux .</a>
+                <a href="blog-single.html">Administration Système des serveurs et reseaux.</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">Romaric G.</a></li>
-                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="{{ route('apropos') }}">Romaric G.</a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="#"><time datetime="2020-01-01">Nov. 30, 2020</time></a></li>
                 </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                  CISCO, CCNA, CCNP, CCIE, etc.
+                  Une bonne connaissance des systèmes d'exploitaon Linux et Windows (Client et Server) est necessairement important dans le deploiement des différentes applications métiers, leurs configuration et le managment de celle-ci.
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">De la Doc.</a>
+                  <a href="#">En Savoir plus</a>
                 </div>
               </div>
 
@@ -196,16 +196,6 @@
           </div>
 
         </div>
-<!-- 
-        <div class="blog-pagination" data-aos="fade-up">
-          <ul class="justify-content-center">
-            <li class="disabled"><i class="icofont-rounded-left"></i></li>
-            <li><a href="#">1</a></li>
-            <li class="active"><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#"><i class="icofont-rounded-right"></i></a></li>
-          </ul>
-        </div> -->
 
       </div>
     </section><!-- End Blog Section -->

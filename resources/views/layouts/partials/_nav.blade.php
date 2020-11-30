@@ -11,7 +11,7 @@
 
           <li class="{{ active('portfolio') }}"><a href="{{ route('portfolio') }}">Portfolio</a></li>
 
-          <li class="drop-down"><a href="#">Formations</a>
+          <li class="drop-down"><a href="#">Savoir Faire</a>
             <ul>
               <li class="{{ active('technologie') }}"><a href="{{ route('technologie') }}">Technologies</a></li>
               <li class="{{ active('managment') }}"><a href="{{ route('managment') }}">Managments</a></li>
