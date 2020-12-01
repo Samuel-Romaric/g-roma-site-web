@@ -50,26 +50,26 @@
             <article class="entry">
 
               <div class="entry-img">
-                <img src="assets/img/gestion-quotidienne.jpg" alt="" class="img-fluid img-learn">
+                <img src="assets/img/gestion-quotidienne.jpg" alt="manager" class="img-fluid img-learn">
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Managment d'une équipe au quotidien</a>
+                <a href="https://reussir-son-management.com/manager-son-equipe-au-quotidien/" target="blank">Managment d'une équipe au quotidien</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
                   <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="{{ route('apropos') }}">Romaric G.</a></li>
-                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="#"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
                 </ul>
               </div>
 
               <div class="entry-content">
                 <p>
-                  Ad impedit qui officiis est in non aliquid veniam laborum. Id ipsum qui aut. Sit aliquam et quia molestias laboriosam. Tempora nam odit omnis eum corrupti qui aliquid excepturi molestiae. Facilis et sint quos sed voluptas. Maxime sed tempore enim omnis non alias.
+                  La gestion d’équipe détermine la capacité d’un gestionnaire à mener un groupe de personnes dans l’exécution d’un travail. En effet, gérer de façon efficace une équipe implique un soutien permanent des membres de l’équipe. Ce qui pourra s’expliquer par une meilleure communication avec l’équipe et l’évaluation de ses membres. Avec pour objectif, que ces derniers puissent fonctionner de façon professionnelle, efficace tout en demeurant dans l’objectif fixé par l’entreprise.
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">En Savoir plus</a>
+                  <a href="https://reussir-son-management.com/manager-son-equipe-au-quotidien/" target="blank">En Savoir plus</a>
                 </div>
               </div>
 
@@ -80,17 +80,17 @@
             <article class="entry">
 
               <div class="entry-img">
-                <img src="assets/img/DevOps.jpg" alt="" class="img-fluid img-learn">
+                <img src="assets/img/DevOps.jpg" alt="devops" class="img-fluid img-learn">
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Metodologie DevOps.</a>
+                <a href="https://fr.wikipedia.org/wiki/Devops" target="blank">Metodologie DevOps.</a>
               </h2>
 
               <div class="entry-meta">
                 <ul>
                   <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="{{ route('apropos') }}">Romaric G.</a></li>
-                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                  <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="#"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
                 </ul>
               </div>
 
@@ -99,7 +99,7 @@
                   L'évolution d'une structure repose sur la bonne marche de son service d'exploit au niveau de ses applications metiers qui doivent être stable. Or le bon fonctionnement des applications métiers est garantis par les developpeurs en charge de son évolution en apportant des fonctionnalitées, gerant les bugs et les versions. DevOp est une methode qui vise à mettre en place de bonne pratiques afin de garantir un bonne exploitation.
                 </p>
                 <div class="read-more">
-                  <a href="blog-single.html">En Savoir plus</a>
+                  <a href="https://fr.wikipedia.org/wiki/Devops" target="blank">En Savoir plus</a>
                 </div>
               </div>
 

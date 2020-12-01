@@ -43,21 +43,21 @@
             <div class="icon-box">
               <i class="icofont-settings"></i>
               <h4><a href="#">Architecture de SI</a></h4>
-              <p>Un architecte, c’est avant tout le dépositaire d’une méthode et d’une vision. <!-- ***** --></p>
+              <p>Un architecte, c’est avant tout le dépositaire d’une méthode et d’une vision. C'est celui là même par qui votre système trouve tout son sens de par son exploitabilité.</p>
             </div>
           </div>
           <div class="col-md-6 mt-4 mt-md-0">
             <div class="icon-box">
               <i class="icofont-earth"></i>
               <h4><a href="#">Securité - Administration système et réseau</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <p></p>
             </div>
           </div>
           <div class="col-md-6 mt-4 mt-md-0">
             <div class="icon-box">
               <i class="icofont-tasks-alt"></i>
               <h4><a href="#">Gestion de projet digital</a></h4>
-              <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <p></p>
             </div>
           </div>
         </div>

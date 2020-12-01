@@ -109,7 +109,7 @@
             <article class="entry">
 
               <div class="entry-img">
-                <img src="assets/img/blog-4.jpg" alt="" class="img-fluid">
+                <img src="assets/img/coding.jpg" alt="" class="img-fluid img-learn">
               </div>
 
               <h2 class="entry-title">
@@ -169,11 +169,11 @@
             <article class="entry">
 
               <div class="entry-img">
-                <img src="assets/img/blog-6.jpg" alt="" class="img-fluid">
+                <img src="assets/img/blog-6.jpg" alt="" class="img-fluid img-learn">
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Administration Système des serveurs et reseaux.</a>
+                <a href="https://linux.goffinet.org/administration/scripts-shell/" target="blank">Administration Système des serveurs et reseaux (Shell).</a>
               </h2>
 
               <div class="entry-meta">
@@ -185,10 +185,10 @@
 
               <div class="entry-content">
                 <p>
-                  Une bonne connaissance des systèmes d'exploitaon Linux et Windows (Client et Server) est necessairement important dans le deploiement des différentes applications métiers, leurs configuration et le managment de celle-ci.
+                  Une bonne connaissance des systèmes d'exploitaon Linux et Windows (Client et Server) est necessairement important dans le deploiement des différentes applications métiers, leurs configuration et le managment de celle-ci. Cette action nécessite des connaissances en matière de la programmation shell en vu d'automatiser des actions.
                 </p>
                 <div class="read-more">
-                  <a href="#">En Savoir plus</a>
+                  <a href="https://linux.goffinet.org/administration/scripts-shell/" target="blank">En Savoir plus</a>
                 </div>
               </div>
 

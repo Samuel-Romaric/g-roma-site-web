@@ -231,6 +231,14 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu-left {
   margin-left: 5%;
 }
+/* Size of SI image*/
+.img-internet {
+  width: 180%;
+}
+
+.img-roma-article {
+  height: 100px;
+}
 
 @media (max-width: 991px) {
   .get-started-btn {

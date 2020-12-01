@@ -6,7 +6,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Romaric-G</h3>
+              <h3>Romaric G. S.</h3>
               <p>
                 Yopougon; Toit-Rouge <br>
                 Abidjan, Côte d'Ivoire<br><br>
@@ -24,32 +24,32 @@
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4><!-- Useful Links --> Liens Usuels</h4>
+            <h4>Liens Usuels</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('home') }}">Accueil</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('portfolio') }}">Portofolio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('technologie') }}">Savoir IT</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('services') }}">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('apropos') }}">Apropos</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Mes Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Project Management</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Data Protecting</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <h4>Nos Nouvelles</h4>
+            <p>Veuillez laisser votre addresse mail dans ce champ ci-dessous affin de pouvoir recevoir Mes News</p>
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <input type="email" name="email"><input type="submit" value="Souscrire">
             </form>
 
           </div>
