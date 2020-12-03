@@ -72,17 +72,17 @@
         <div class="row content">
           <div class="col-lg-6">
             <h2>Conception, Expertise et Consultance IT </h2>
-            <h3>Une mission qui vise a accompager les entreprises, PME dans leur développemnt par la conception et le deploiement des solutions Technologiques.</h3>
+            <h3>Une mission qui vise a accompager les entreprises, PME dans leur développemnt par l'analyse, la conception et le deploiement des solutions Technologiques.</h3>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-              Je suis <strong>Romaric GUEI</strong>, diplômé à la base d'informatique. Aujourd'hui, disponible au service des TPE, ONG, PME et bien d'autres type de structures en vue d'un accompagnement au sain de leurs activicté par le biais de divers services tel que :
+              Je suis <strong>Romaric G.</strong>, passioné des technologies. Aujourd'hui, disponible au service des TPE, ONG, PME, start-up et bien d'autres type de structures en vue d'un accompagnement au sain de leurs activicté par le biais de divers connaissances en tant que :
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Consultance - Conseil - Suivi</li>
-              <li><i class="ri-check-double-line"></i> Analyse - Conception - Maintenance - Managment des SI</li>
-              <li><i class="ri-check-double-line"></i> Managment de projet digital </li>
-              <li><i class="ri-check-double-line"></i> Analyse et Managment des risques SI </li>
+              <li><i class="ri-check-double-line"></i> Consultant SI </li>
+              <li><i class="ri-check-double-line"></i> Analyste programmeur</li>
+              <li><i class="ri-check-double-line"></i> Gestionnaire de projet digital </li>
+              <li><i class="ri-check-double-line"></i> Analyste et Manager des risques SI </li>
             </ul>
             <p class="font-italic">
               Aujourd'hui incontournable dans l'évolution de toutes activitées modernes, les Systèmes d'Information contribuent à l'élaboration d'une valeur ajouté au sein des entreprises.
@@ -94,65 +94,7 @@
 
     </section><!-- End About Section -->
     
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Service</h2>
-          <p>Mes services offerts</p>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6">
-            <div class="icon-box">
-              <i class="icofont-computer"></i>
-              <h4><a href="#">Programmation</a></h4>
-              <p><!--Détailé dans la section Services --></p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-chart-bar-graph"></i>
-              <h4><a href="#">Analyse - Conception - Deploiement</a></h4>
-              <p><!--Détailé dans la section Services --></p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-image"></i>
-              <h4><a href="#">Infographie - Web Desing</a></h4>
-              <p><!--Détailé dans la section Services --></p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-settings"></i>
-              <h4><a href="#">Architecture de SI</a></h4>
-              <p>
-                <!--Détailé dans la section Services -->
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-earth"></i>
-              <h4><a href="#">Securité - Administration système et réseau</a></h4>
-              <p><!--Détailé dans la section Services --></p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="icofont-tasks-alt"></i>
-              <h4><a href="#">Gestion de projet digital</a></h4>
-              <p><!--Détailé dans la section Services --></p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
+    @include('layouts.partials._services')
     
     @include('layouts.partials._portofolio_section')
 

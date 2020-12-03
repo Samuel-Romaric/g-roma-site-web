@@ -11,7 +11,7 @@
                 Yopougon; Toit-Rouge <br>
                 Abidjan, Côte d'Ivoire<br><br>
                 <strong>Phone:</strong> +225 77 934 561<br>
-                <strong>Email:</strong> info@example.com<br>
+                <strong>Email:</strong> samuelromaric2015@gmail.com<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -28,7 +28,7 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="{{ route('home') }}">Accueil</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{ route('portfolio') }}">Portofolio</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('technologie') }}">Savoir IT</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('technologie') }}">Univers IT</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{ route('services') }}">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{ route('apropos') }}">Apropos</a></li>
             </ul>
@@ -37,10 +37,10 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Mes Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Gestion de projet</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Project Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Système Windows et Linux</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Base de données</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Data Protecting</a></li>
             </ul>
           </div>

@@ -24,7 +24,7 @@
               <img src="assets/img/portfolio/mon-site.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Site Web</h4>
-                <p>Web</p>
+                <p>Site Web Personel</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -66,7 +66,7 @@
               <img src="assets/img/portfolio/app-web.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App. Web</h4>
-                <p>Web</p>
+                <p>App. Web Gestion</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>

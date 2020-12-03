@@ -1,4 +1,4 @@
-@extends('/layouts/app', ['title' => 'Blog'])
+@extends('/layouts/app', ['title' => 'Apropos'])
 
 @section('breadcrumbs')
 
@@ -16,18 +16,12 @@
         <div class="row content">
           
           <div class="col-lg-12 pt-4 pt-lg-0">
-            <p>
-              Je suis <strong>Romaric GUEI</strong>, diplômé à la base d'informatique. Aujourd'hui, disponible au service des TPE, ONG, PME et bien d'autres type de structures en vue d'un accompagnement au sain de leurs activicté par le biais de divers services tel que :
+            <p class="font-italic">
+              Je suis <strong>Romaric GUEI</strong>. Né en Côte d'Ivoire, où j'y ai fait une partie de mes études et passioné d'informatique ce site web est l'une mes réalisations qui met en évidence mon petit savoir faire.  
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Consultance - Conseil - Suivi</li>
-              <li><i class="ri-check-double-line"></i> Analyse - Conception - Maintenance - Managment des SI</li>
-              <li><i class="ri-check-double-line"></i> Managment de projet digital </li>
-              <li><i class="ri-check-double-line"></i> Analyse et Managment des risques SI </li>
+              <li><i class="ri-check-double-line"></i> Domaines de Competences Techniques: Informatique</li>
             </ul>
-            <p class="font-italic">
-              Aujourd'hui incontournable dans l'évolution de toutes activitées modernes, les Systèmes d'Information contribuent à l'élaboration d'une valeur ajouté au sein des entreprises.
-            </p>
           </div>
         </div>
 
