@@ -68,7 +68,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Soumettre le Message</button></div>
+              <div class="text-center"><button type="submit"><i class="icofont-tick-mark"></i> Soumettre le Message</button></div>
             </form>
 
           </div>

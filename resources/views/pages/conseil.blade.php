@@ -15,7 +15,7 @@
 
         <div class="row">
 
-          <div class="col-lg-10 entries">
+          <div class="col-lg-10 offset-lg-1 entries">
 
             <article class="entry entry-single">
 

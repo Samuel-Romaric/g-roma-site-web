@@ -15,7 +15,7 @@
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Qui suis-je ?</h2>
-              <p class="animate__animated animate__fadeInUp">Je suis un spécialiste diplômé des technologien de l'information, de la communication et de la securité de l'information. Un vaste domaine dans lequel j'évolue en étroit rélation avec leurdit sous domaines</p>
+              <p class="animate__animated animate__fadeInUp">Je suis un spécialiste diplômé des technologies de l'information, de la communication et de la securité de l'information. Un vaste domaine dans lequel j'évolue en étroit rélation avec leurdit sous domaine</p>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">En Savoir plus</a>
             </div>
           </div>
@@ -25,7 +25,7 @@
         <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Un service de best quality</h2>
+              <h2 class="animate__animated animate__fadeInDown">Les meilleurs services qui soient</h2>
               <p class="animate__animated animate__fadeInUp">Au terme du multiservice, l'on dira qu'ils sont de nature très varriés, de très haut qualité avec des coût defiant toute concurance. Certains seront véritablement surpris de faire face à de telle réalité</p>
               <a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">En Savoir plus</a>
             </div>
@@ -79,7 +79,7 @@
               Je suis <strong>Romaric G.</strong>, passioné des technologies. Aujourd'hui, disponible au service des TPE, ONG, PME, start-up et bien d'autres type de structures en vue d'un accompagnement au sain de leurs activicté par le biais de divers connaissances en tant que :
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Consultant SI </li>
+              <li><i class="ri-check-double-line"></i> Consultant SI / Freelance</li>
               <li><i class="ri-check-double-line"></i> Analyste programmeur</li>
               <li><i class="ri-check-double-line"></i> Gestionnaire de projet digital </li>
               <li><i class="ri-check-double-line"></i> Analyste et Manager des risques SI </li>

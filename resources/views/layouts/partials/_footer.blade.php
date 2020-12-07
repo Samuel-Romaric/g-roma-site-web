@@ -8,7 +8,7 @@
             <div class="footer-info">
               <h3>Romaric G. S.</h3>
               <p>
-                Yopougon; Toit-Rouge <br>
+                Yopougon, Toit-Rouge <br>
                 Abidjan, Côte d'Ivoire<br><br>
                 <strong>Phone:</strong> +225 77 934 561<br>
                 <strong>Email:</strong> samuelromaric2015@gmail.com<br>
@@ -28,9 +28,9 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="{{ route('home') }}">Accueil</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{ route('portfolio') }}">Portofolio</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('technologie') }}">Univers IT</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('conseil') }}">Univers IT</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{ route('services') }}">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('apropos') }}">Apropos</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('contact') }}">Contacter</a></li>
             </ul>
           </div>
 
@@ -38,10 +38,10 @@
             <h4>Mes Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Gestion de projet</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Système Windows et Linux</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Base de données</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Data Protecting</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Development d'appli.</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Archectures des SI.</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Analyse & Gesion de risques SI</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Formations</a></li>
             </ul>
           </div>
 
@@ -75,3 +75,4 @@
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   @include('layouts.partials.script')
+  

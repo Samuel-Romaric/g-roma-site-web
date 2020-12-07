@@ -34,8 +34,8 @@
               </div>
 
               <div class="entry-content">
-                <p>
-                  Un projet est une idée que l'on project materialiser. Celui-ci demande un coût une durée et une certaine qualité du livrable. Ainsi, la réalisation d'un projet implique différentes methodologie de gestion comme les methodologies classique (cascade, en V, ...) ou agile (scrum) selon le type de projet (Normal ou Inovatif)
+                <p class="text-justify">
+                  En dehors du cadre professionnel, la vie est faite de projet, qu'il soit la recherche d'un nouvel emploie, l'achat ou la construction d'une maison ou même le repas que l'on souhaite prendre ce midi. En effet, un projet est une idée que l'on project materialiser. Celui-ci demande un coût une durée et une certaine qualité du livrable. Ainsi, la réalisation d'un projet implique différentes methodologie de gestion comme les methodologies classique (cascade, en V, ...) ou agile (scrum) selon le type de projet (Normal ou Inovatif)
                 </p>
                 <div class="read-more">
                   <a href="https://www.atlassian.com/fr/software/jira?&aceid=&adposition=&adgroup=107480679089&campaign=10595773382&creative=454987074400&device=c&keyword=%2Bprojet%20%2Bgestion&matchtype=b&network=g&placement=&ds_kids=p55785228762&ds_e=GOOGLE&ds_eid=700000001550060&ds_e1=GOOGLE&gclid=EAIaIQobChMI-KuihvCq7QIVDrvVCh0FtwAAEAAYASAAEgLFDfD_BwE&gclsrc=aw.ds" target="blank
@@ -65,7 +65,7 @@
               </div>
 
               <div class="entry-content">
-                <p>
+                <p class="text-justify">
                   La gestion d’équipe détermine la capacité d’un gestionnaire à mener un groupe de personnes dans l’exécution d’un travail. En effet, gérer de façon efficace une équipe implique un soutien permanent des membres de l’équipe. Ce qui pourra s’expliquer par une meilleure communication avec l’équipe et l’évaluation de ses membres. Avec pour objectif, que ces derniers puissent fonctionner de façon professionnelle, efficace tout en demeurant dans l’objectif fixé par l’entreprise.
                 </p>
                 <div class="read-more">
@@ -95,8 +95,8 @@
               </div>
 
               <div class="entry-content">
-                <p>
-                  L'évolution d'une structure repose sur la bonne marche de son service d'exploit au niveau de ses applications metiers qui doivent être stable. Or le bon fonctionnement des applications métiers est garantis par les developpeurs en charge de son évolution en apportant des fonctionnalitées, gerant les bugs et les versions. DevOp est une methode qui vise à mettre en place de bonne pratiques afin de garantir un bonne exploitation.
+                <p class="text-justify">
+                  L'évolution d'une structure repose sur la bonne marche de son service d'exploitation au niveau de ses applications metiers qui doivent être stable. Or le bon fonctionnement des applications métiers est garantis par les developpeurs en charge de son évolution en apportant des fonctionnalitées, gerant les bugs et les versions. DevOp est une methode qui vise à mettre en place de bonne pratiques afin de garantir une bonne exploitation des applications metiers ainsi qu'accroître la productivité.
                 </p>
                 <div class="read-more">
                   <a href="https://fr.wikipedia.org/wiki/Devops" target="blank">En Savoir plus</a>

@@ -23,7 +23,7 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="https://fr.wikipedia.org/wiki/COBIT" target="blank">Analyse et gestion des risques des Systèmes d'Informations</a>
+                <a href="https://fr.wikipedia.org/wiki/COBIT" target="blank">Analyser et Gérez des risques des Systèmes d'Informations</a>
               </h2>
 
               <div class="entry-meta">
@@ -34,8 +34,8 @@
               </div>
 
               <div class="entry-content">
-                <p>
-                  Le risque zero (0) est quasi inexistant en matière de confidentialité, d'integrité et de disponibilité des données. Il est important d'user de certaines methodologies (MEHARI, OCTAVE, etc) en vue de reduire au maximum et mieux gérer les menaces vis-àvis de vos actifs.
+                <p class="text-justify">
+                  Le risque zero (0) est quasi inexistant en matière de confidentialité, d'integrité et de disponibilité des données au sein d'une entreprise. Or, à chaque instant qui soit l'on genère d'enorme quantité de données à sécuriser. Il est donc important pour les managers d'avoir un aperçu des risques de perte de données afin de mieux gérer les menaces qui pèse sur leurs différents actifs.
                 </p>
                 <div class="read-more">
                   <a href="https://fr.wikipedia.org/wiki/COBIT" target="blank">En Savoir plus</a>
@@ -64,7 +64,7 @@
               </div>
 
               <div class="entry-content">
-                <p>
+                <p class="text-justify">
                   Le deploiement de tout Système d'Information ou application métier ne peut être possibe que dans un environnement qui se doit d'être robust, bien sécurisé, élastique et surtout simple. Cet environement permet de rendre possible l'exploitation dudit système d'information ou application metier sur les plans fonctionnel, applicatif, infrastructure et operationnel.
                 </p>
                 <div class="read-more">
@@ -94,8 +94,8 @@
               </div>
 
               <div class="entry-content">
-                <p>
-                  Utilisé aujourd'hui dans maintes de domains, Python est un langage de programmation informatique basé sur le concepte de la programmation orienté objet qui intervient dans l'administration système, la création des applications desktop et web (Flask, Django), la robotique, l'analyse de données (Data Science), etc.
+                <p class="text-justify">
+                  Utilisé aujourd'hui dans maintes de domains ou secteur d'activité, Python est un langage de programmation informatique basé sur le concepte de la programmation orienté objet. Aujourd'hui, faisant partir des technologies les plus utilisé, Pyhton la conception de site ou aplications web robuste avec ses selèbres framework Flask et Django, dans la robotique et l'intelligence artificielle, la Data Science , etc.
                 </p>
                 <div class="read-more">
                   <a href="https://www.python.org/download/releases/3.0/" target="blank">En Savoir plus</a>
@@ -124,8 +124,8 @@
               </div>
 
               <div class="entry-content">
-                <p>
-                  Aussi puissant que son logo (l'éléphant), le PHP est un langage de programmation objet orient back-end. A son aise, l'on est capable de concévoir et mettre en production des applications web de tout type. Les puissants framwork tel que Symfony et Laravel en sont conçus.
+                <p class="text-justify">
+                  Aussi puissant que sa mascotte (l'éléphant), le PHP est un langage de programmation à la fois procedural et orienté objet utilisé dans le back-end. A son aise, l'on est capable de concévoir des sites et application web et tout type, y compris leur mise en production. Les puissants framwork tel que Symfony et Laravel en sont conçus. Il vous permet de gérer tout ce qui est traitemnt.
                 </p>
                 <div class="read-more">
                   <a href="https://laravel.com/" target="blank">En Savoir plus</a>
@@ -143,7 +143,7 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="blog-single.html">Base de données.</a>
+                <a href="blog-single.html">Système de Gestion de Base de données.</a>
               </h2>
 
               <div class="entry-meta">
@@ -154,8 +154,8 @@
               </div>
 
               <div class="entry-content">
-                <p>
-                  La bonne maitrise d'un SGBD (Système de Gestion de Base de Données) Rélationnel reste indispenssable dans la structuration, la definition et la manipulation des données en vue d'une bonne gestion de celles-ci (MySQL, SQLite, PostgreSQL, Oracle).  
+                <p class="text-justify">
+                  Tout comme son nom l'indique, les Systèmes d'Information on pour coeur le traitement de l'information. La bonne maitrise d'un Système de Gestion de Base de Données Rélationnel reste indispenssable dans la structuration, la definition et la manipulation des données en vue d'une bonne gestion de celles-ci (MySQL, SQLite, PostgreSQL).  
                 </p>
                 <div class="read-more">
                   <a href="https://www.mysql.com/fr/" target="blank">En Savoir plus</a>
@@ -173,7 +173,7 @@
               </div>
 
               <h2 class="entry-title">
-                <a href="https://linux.goffinet.org/administration/scripts-shell/" target="blank">Administration Système des serveurs et reseaux (Shell).</a>
+                <a href="https://linux.goffinet.org/administration/scripts-shell/" target="blank">Administration Système serveurs reseaux (Shell).</a>
               </h2>
 
               <div class="entry-meta">
@@ -184,7 +184,7 @@
               </div>
 
               <div class="entry-content">
-                <p>
+                <p class="text-justify">
                   Une bonne connaissance des systèmes d'exploitaon Linux et Windows (Client et Server) est necessairement important dans le deploiement des différentes applications métiers, leurs configuration et le managment de celle-ci. Cette action nécessite des connaissances en matière de la programmation shell en vu d'automatiser des actions.
                 </p>
                 <div class="read-more">
