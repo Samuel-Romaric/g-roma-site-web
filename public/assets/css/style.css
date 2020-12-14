@@ -226,10 +226,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/* nav-bar left */
-
+/********************** nav-bar left ********************************/
 .nav-menu-left {
-  margin-left: 5%;
+  margin-left: 0%;
 }
 /* Size of SI image*/
 .img-internet {

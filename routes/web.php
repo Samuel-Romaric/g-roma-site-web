@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+// use App\Mail\ConctactMail;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,4 +28,14 @@ Route::get('services', 'PagesController@services')->name('services');
 
 Route::get('apropos', 'PagesController@apropos')->name('apropos');
 
-Route::get('contact', 'PagesController@contact')->name('contact');
+// Manage the mail sending
+
+Route::get('contact', 'ContactFormController@contact')->name('contact');
+
+Route::post('contact', 'ContactFormController@send_Mail')->name('send_Mail');
+
+// Test mail html
+// Route::get('test-email', function ()
+// {
+// 	return new ConctactMail('Romaric GUEI', 'romi@sami.com', 'Recontre', 'Je desire vous rencontrer pour un eventuel entretient');
+// });

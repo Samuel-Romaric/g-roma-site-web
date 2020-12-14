@@ -120,7 +120,7 @@
             </div>
 
             <div class="progress">
-              <span class="skill">OS (Linux, Windows Serveur - Client) - Shell Bash <i class="val">70%</i></span>
+              <span class="skill">Administration Système - Shell Bash <i class="val">70%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
               </div>

@@ -75,16 +75,6 @@ class PagesController extends Controller
     {
         return view('/pages/apropos');
     }
-
-    /**
-     * Display a form contact.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function contact()
-    {
-    	return view('/pages/contacter');
-    }
     
 }
 

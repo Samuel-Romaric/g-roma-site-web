@@ -1,4 +1,4 @@
-@extends('/layouts/app', ['title' => 'Learn Tech'])
+@extends('/layouts/app', ['title' => 'Technologie'])
 
 @section('breadcrumbs')
 
