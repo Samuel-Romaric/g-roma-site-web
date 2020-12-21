@@ -28,14 +28,10 @@ Route::get('services', 'PagesController@services')->name('services');
 
 Route::get('apropos', 'PagesController@apropos')->name('apropos');
 
-// Manage the mail sending
+/* Manage the mail sending */
 
 Route::get('contact', 'ContactFormController@contact')->name('contact');
 
-Route::post('contact', 'ContactFormController@send_Mail')->name('send_Mail');
+Route::post('contact', 'ContactFormController@send_Mail')->name('contact');
 
-// Test mail html
-// Route::get('test-email', function ()
-// {
-// 	return new ConctactMail('Romaric GUEI', 'romi@sami.com', 'Recontre', 'Je desire vous rencontrer pour un eventuel entretient');
-// });
+

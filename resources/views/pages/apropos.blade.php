@@ -81,7 +81,7 @@
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill">HTML 5 - CSS 3 (Bootstrap)<i class="val">72%</i></span>
+              <span class="skill">HTML 5 - CSS 3<i class="val">72%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -113,7 +113,7 @@
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill">PHP (Laravel) <i class="val">70%</i></span>
+              <span class="skill">PHP <i class="val">70%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -127,7 +127,7 @@
             </div>
 
             <div class="progress">
-              <span class="skill">Python (Flask, Djanjo) - Librairie Data Science<i class="val">55%</i></span>
+              <span class="skill">Python - Librairie Data Science<i class="val">55%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
               </div>

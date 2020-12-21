@@ -12,7 +12,7 @@
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">Tous</li>
               <li data-filter=".filter-web-app">Web App</li>
-              <li data-filter=".filter-web-site">Site Web</li>
+              <li data-filter=".filter-web-site">Web Site</li>
             </ul>
           </div>
         </div><!-- End portofolio header -->

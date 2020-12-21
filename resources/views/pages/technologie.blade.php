@@ -95,7 +95,7 @@
 
               <div class="entry-content">
                 <p class="text-justify">
-                  Utilisé aujourd'hui dans maintes de domains ou secteur d'activité, Python est un langage de programmation informatique basé sur le concepte de la programmation orienté objet. Aujourd'hui, faisant partir des technologies les plus utilisé, Pyhton la conception de site ou aplications web robuste avec ses selèbres framework Flask et Django, dans la robotique et l'intelligence artificielle, la Data Science , etc.
+                  Utilisé aujourd'hui dans maintes de domains ou secteurs d'activités, Python est un langage de programmation informatique basé sur le concepte de la programmation orienté objet. Aujourd'hui, faisant partir des technologies les plus utilisé, Pyhton est utilisé dans la conception de site ou aplications web robuste avec ses selèbres framework Flask et Django, dans la robotique et l'intelligence artificielle, la Data Science , etc.
                 </p>
                 <div class="read-more">
                   <a href="https://www.python.org/download/releases/3.0/" target="blank">En Savoir plus</a>
@@ -125,7 +125,7 @@
 
               <div class="entry-content">
                 <p class="text-justify">
-                  Aussi puissant que sa mascotte (l'éléphant), le PHP est un langage de programmation à la fois procedural et orienté objet utilisé dans le back-end. A son aise, l'on est capable de concévoir des sites et application web et tout type, y compris leur mise en production. Les puissants framwork tel que Symfony et Laravel en sont conçus. Il vous permet de gérer tout ce qui est traitemnt.
+                  Aussi puissant que sa mascotte (l'éléphant), le PHP est un langage de programmation à la fois procedural et orienté objet utilisé dans le back-end. A son aise, l'on est capable de concévoir des sites et applications web de tout type. Les puissants framwork tel que Symfony et Laravel en sont conçus. Il vous permet de gérer tout ce qui est traitemnt entre le front-end (Interface Utilisateur) et la base de données.
                 </p>
                 <div class="read-more">
                   <a href="https://laravel.com/" target="blank">En Savoir plus</a>

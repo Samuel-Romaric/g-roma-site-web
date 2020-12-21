@@ -1,8 +1,8 @@
-@extends('/layouts/app', ['title' => 'Blog'])
+@extends('/layouts/app', ['title' => 'Le monde des SI'])
 
 @section('breadcrumbs')
 
-    @include('/layouts.partials.breadcrumbs', ['name' => 'Le monde des SI', 'page' => 'Decouvrons'])
+    @include('/layouts.partials.breadcrumbs', ['name' => 'Le monde des SI', 'page' => 'Le monde des Systèmes d\'Information'])
 
 @stop
 

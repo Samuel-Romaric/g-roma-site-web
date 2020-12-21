@@ -11,18 +11,18 @@
       <div class="carousel-inner" role="listbox">
 
         <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+        <div class="carousel-item active" style="width: 100%; background-image: url(assets/img/slide/slide-1.jpg)">
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Qui suis-je ?</h2>
-              <p class="animate__animated animate__fadeInUp">Je suis un spécialiste diplômé des technologies de l'information, de la communication et de la securité de l'information. Un vaste domaine dans lequel j'évolue en étroit rélation avec leurdit sous domaine</p>
+              <p class="animate__animated animate__fadeInUp">Je suis un spécialiste diplômé des technologies de l'information, de la communication et de la protection des données. Un vaste domaine dans lequel j'évolue en étroit rélation avec leurdit sous domaine</p>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">En Savoir plus</a>
             </div>
           </div>
         </div>
 
         <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
+        <div class="carousel-item" style="width: 100%; background-image: url(assets/img/slide/slide-2.jpg)">
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Les meilleurs services qui soient</h2>
@@ -33,7 +33,7 @@
         </div>
 
         <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+        <div class="carousel-item" style="width: 100%; background-image: url(assets/img/slide/slide-3.jpg)">
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Mon expérience</h2>

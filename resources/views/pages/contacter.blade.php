@@ -15,7 +15,7 @@
         <!-- Location by google Mapp -->
         <div>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254236.50960242172!2d-4.119753928796737!3d5.348776065776789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1ea5311959121%3A0x3fe70ddce19221a6!2sAbidjan!5e0!3m2!1sfr!2sci!4v1606840168856!5m2!1sfr!2sci" width="600" height="450" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div><!-- End location by google Mapp -->
+        </div> <!-- End location by google Mapp -->
 
         <div class="row mt-5">
 
@@ -48,26 +48,26 @@
             <form action="{{ route('contact') }}" method="POST" role="form" class="">
               @csrf
               <div class="form-row">
-                <div class="col-md-6 form-group {{ $errors->has('name') ?? 'has-error'}}">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Votre Nom & Prenom"   value="{{ old('name') }}" required="" /> 
+                <div class="col-md-6 form-group @error('name') has-error @enderror">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nom & Prenom"   value="{{ old('name') }}" required="" />                   
                   <div class="validate">
                     {!! $errors->first('name', '<p>:message</p>') !!}
                   </div>
                 </div>
-                <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Votre adresse e-mail" value="{{ old('email') }}" required="" />
-                  <div class="validate">
+                <div class="col-md-6 form-group @error('email') has-error @enderror">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Adresse e-mail" value="{{ old('email') }}" required="" />
+                  <div class="">
                     {!! $errors->first('email', '<p>:message</p>') !!}
                   </div>
                 </div>
               </div>
-              <div class="form-group">
+              <div class="form-group @error('subject') has-error @enderror">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet" value="{{ old('subject') }}" required />
                 <div class="validate">
                   {!! $errors->first('subject', '<p>:message</p>') !!}
                 </div>
               </div>
-              <div class="form-group">
+              <div class="form-group @error('message') has-error @enderror">
                 <textarea class="form-control" name="message" rows="5"  placeholder="Message" required="">{{ old('message') }}</textarea>
                 <div class="validate">
                   {!! $errors->first('message', '<p>:message</p>') !!}
@@ -79,8 +79,8 @@
                 </div>
               @endif
               <div class="text-center">
-                <button type="submit" class="btn btn-lg btn-danger" formnovalidate="">
-                  <i class="icofont-tick-mark"></i> Soumettre le Message &raquo;
+                <button type="submit" class="btn btn-danger btn-block">
+                  <i class="icofont-tick-mark"></i> Soumettre
                 </button>
               </div>
             </form>

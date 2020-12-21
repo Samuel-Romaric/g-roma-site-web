@@ -27,7 +27,7 @@ class ContactFormRequest extends FormRequest
             'name' => 'required|min:4',
             'email' => 'required|email',
             'subject' => 'required|string|min:4',
-            'message' => 'required|min:4',
+            'message' => 'required|string|min:4',
         ];
     }
 
@@ -36,10 +36,17 @@ class ContactFormRequest extends FormRequest
      *
      * @return array
      */
-    public function message()
+    public function messages()
     {
         return [
-            'name.required' => 'Please enter at least :min chars',
+            'name.required' => 'Veuillez completer ce champ svp !',
+            'name.min' => 'Ce champ doit contenir :min carractères minimum',
+            'email.required' => 'Veuillez completer ce champ svp !.',
+            'email.email' => 'Veuillez saisir une addresse mail valide',
+            'subject.required' => 'Veuillez completer ce champ svp !',
+            'subject.min' => 'Ce champ doit contenir :min carractères minimum',
+            'message.required' => 'Veuillez completer ce champ svp !.',
+            'message.min' => 'Ce champ doit contenir :min carractères minimum',
         ];
     }
 }

@@ -226,13 +226,15 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/********************** nav-bar left ********************************/
-.nav-menu-left {
-  margin-left: 0%;
-}
+/************** nav-bar left ***************/
+
 /* Size of SI image*/
 .img-internet {
   width: 180%;
+}
+
+.has-error {
+  color: red;
 }
 
 .img-roma-article {

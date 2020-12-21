@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests\ContactFormRequest;
-use App\Mail\ConctactMail;
 use Illuminate\Support\Facades\Mail;
+use App\Mail\ConctactMail;
 
 class ContactFormController extends Controller
 {
@@ -28,11 +28,13 @@ class ContactFormController extends Controller
     {
         $mailable = new ConctactMail($request->name, $request->email, $request->subject, $request->message);
 
-        Mail::to('sami-romi@romi.com')->send($mailable);
+        $email = 'admin@g-romaric.com';
 
-        $result = "Votre mail à bien été envoyé. Je vous contacterai dans les plus brèf délais!";
+        Mail::to($email)->send($mailable);
 
-        return view('pages.contacter', compact('result'));
+        flash(sprintf("Merci de m'avoir écris. Je vous contacterai dans les plus brèf délais!"));
+
+        return view('pages.contacter');
     }
 
 }

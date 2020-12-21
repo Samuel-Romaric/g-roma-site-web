@@ -3,11 +3,11 @@
 
     <div class="container d-flex align-items-center">
       <!-- Use image same logo -->
-      <a href="{{ route('home') }}" class="logo">
+      <a href="{{ route('home') }}" class="logo mr-auto">
         <img src="{{ asset('assets/img/team/roma.jpg') }}" alt="romaric" class="img-fluid img-logo-size">
       </a>
 
-      <nav class="nav-menu d-none d-lg-block nav-menu-left">
+      <nav class="nav-menu d-none d-lg-block">
 
         <ul>
           <li class="{{ active('home') }}">
