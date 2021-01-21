@@ -24,7 +24,7 @@
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Locatisation:</h4>
-                <p>Yopougon toit-rouge, Abidjan, Côte d'Ivoire</p>
+                <p>Yopougon, Abidjan, Côte d'Ivoire</p>
               </div>
 
               <div class="email">

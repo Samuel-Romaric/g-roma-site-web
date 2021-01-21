@@ -15,7 +15,7 @@
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Qui suis-je ?</h2>
-              <p class="animate__animated animate__fadeInUp">Je suis un spécialiste diplômé des technologies de l'information, de la communication et de la protection des données. Un vaste domaine dans lequel j'évolue en étroit rélation avec leurdit sous domaine</p>
+              <p class="animate__animated animate__fadeInUp"><b>Romaric G.</b> Un jeune africain, spécialiste des technologies de l'information, de la communication et de la protection des données qui vie sa pation dans dans ce monde du IT. Un vaste domaine dans lequel j'évolue en étroit rélation avec leurdit sous domaine</p>
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">En Savoir plus</a>
             </div>
           </div>
@@ -25,7 +25,7 @@
         <div class="carousel-item" style="width: 100%; background-image: url(assets/img/slide/slide-2.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Les meilleurs services qui soient</h2>
+              <h2 class="animate__animated animate__fadeInDown">Ce que je fais</h2>
               <p class="animate__animated animate__fadeInUp">Au terme du multiservice, l'on dira qu'ils sont de nature très varriés, de très haut qualité avec des coût defiant toute concurance. Certains seront véritablement surpris de faire face à de telle réalité</p>
               <a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">En Savoir plus</a>
             </div>

@@ -194,6 +194,5 @@
 
       </div>
     </section><!-- End Blog Section -->
-
-
+    
 @stop

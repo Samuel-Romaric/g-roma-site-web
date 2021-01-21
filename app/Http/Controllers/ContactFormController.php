@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests\ContactFormRequest;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\ConctactMail;
+use Illuminate\Support\Facades\Redirect;
 
 class ContactFormController extends Controller
 {
@@ -34,7 +35,7 @@ class ContactFormController extends Controller
 
         flash(sprintf("Merci de m'avoir écris. Je vous contacterai dans les plus brèf délais!"));
 
-        return view('pages.contacter');
+        return redirect()->route('contact');
     }
 
 }

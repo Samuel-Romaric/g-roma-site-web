@@ -8,7 +8,7 @@
             <div class="footer-info">
               <h3>Romaric G. S.</h3>
               <p>
-                Yopougon, Toit-Rouge <br>
+                Yopougon, 
                 Abidjan, Côte d'Ivoire<br><br>
                 <strong>Phone:</strong> +225 77 934 561<br>
                 <strong>Email:</strong> samuelromaric2015@gmail.com<br>
@@ -48,7 +48,7 @@
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Nos Nouvelles</h4>
             <p>Veuillez laisser votre addresse mail dans ce champ ci-dessous affin de pouvoir recevoir Mes News</p>
-            <form action="" method="post">
+            <form action="" method="get">
               <input type="email" name="email"><input type="submit" value="Souscrire">
             </form>
 
@@ -67,7 +67,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/sailor-free-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://romaric.carrd.co/" target="blank">Romaric</a>
       </div>
     </div>
   </footer><!-- End Footer -->
